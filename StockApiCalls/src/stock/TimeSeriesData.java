@@ -78,6 +78,7 @@ public class TimeSeriesData {
 			System.out.println(stockData);
 			for (int i = 0; i < stockData.size(); i++) {
 				JSONObject jsonObject = new JSONObject();
+				System.out.println("Debug message");
 				System.out.println("date:   " + stockData.get(i).getDateTime());
 				System.out.println("open:   " + stockData.get(i).getOpen());
 				System.out.println("high:   " + stockData.get(i).getHigh());
@@ -96,10 +97,10 @@ public class TimeSeriesData {
 			System.out.println("something went wrong");
 		}
 //
-//		
-//		
+//
+//
 //		return Response.ok().entity(jsonArray.toString()).build();
-//		
+//
 		return Response.ok().entity(jsonArray.toString()).build();
 
 	}
