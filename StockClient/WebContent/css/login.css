@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:400px;
+    width:150px;
+    float:left;
+    padding:30px;	      
+}
+#section {
+    width:500px;
+    float:left;
+    text-align:center;
+    padding:30px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+a:link, a:visited {
+  background-color: #eeeeee;
+  color: black;
+  padding: 12px;
+  width:150px;
+  text-align: center;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: gray;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
