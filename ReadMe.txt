@@ -6,7 +6,7 @@
 5. If the error persists, Add JAR files for Servlet API and Database driver used. for MySQL, you need MySQL connector Jar
 6. In the 'Server' pane of the eclipse, click on add server if not present. 
 7. Modify port numbers: We need 3 different servers connected to 3 different ports. Modify port number accordingly.
-8. Right, click on the server. Click on 'Add' to add a specific project to that server. Finally, you should have 3 projects and 3 different servers.
+8. Right click on the server. Click on 'Add' to add a specific project to that server. Finally, you should have 3 projects and 3 different servers.
 9. Modify web service port number(Port Number of server2) in all servlet files of Server1 Files i.e Project StockClient
 10. Download MySQL database and update username, Port No. and password details in src --> Service files(Java files) present on server2 (Project StockSample)
 11. Create DB schema for User details, Bank Account, Stock information, User History. Queries are present in 'Database Configuration queries:' section of project report
